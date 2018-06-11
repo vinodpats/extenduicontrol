@@ -1,0 +1,101 @@
+.sapSuiteUiCommonsTimelineItemIcon {
+	width:141px !important;
+	height: 18px !important;
+}
+.sapSuiteUiCommonsTimelineItemBox {
+    width: 80px !important;
+    height: 60px !important;
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: 0.2em 0.2em 0.9em 0.1rem rgba(136, 136, 136, 0.8);
+    margin-left: 60px;
+    
+  }
+  
+/*  .sapSuiteUiCommonsTimelineItemArrow{*/
+/*  	visibility: hidden;*/
+/*  }*/
+/*  .sapSuiteUiCommonsTimelineItemBox:after, .arrow_box:before {*/
+/*	bottom: 100%;*/
+/*	left: 50%;*/
+/*	border: solid transparent;*/
+/*	content: " ";*/
+/*	height: 0;*/
+/*	width: 0;*/
+/*	position: absolute;*/
+/*	pointer-events: none;*/
+/*}*/
+
+/*.sapSuiteUiCommonsTimelineItemBox:after {*/
+/*	border-color: rgba(136, 183, 213, 0);*/
+/*	border-bottom-color: #B0C4DE;*/
+/*	border-width: 18px;*/
+/*	margin-left: -20px;*/
+/*}*/
+/*.sapSuiteUiCommonsTimelineItemBox:before {*/
+/*	border-color: rgba(194, 225, 245, 0);*/
+/*	border-bottom-color: #c2e1f5;*/
+/*	border-width: 20px;*/
+/*	margin-left: -20px;*/
+/*}*/
+  
+ .sapSuiteUiCommonsTimelineItemShellHdr{
+ 	color: #FFFFFF !important;
+ }
+
+#__xmlview0--idTimeline-filterToolBar{
+	visibility: hidden;
+}
+
+.sapSuiteUiCommonsTimelineItemActionLink, .sapSuiteUiCommonsTimelineItemShellDateTime{
+	visibility: hidden;
+}
+
+.sapSuiteUiCommonsTimelineItemBarV, .sapSuiteUiCommonsTimelineItemWrapperV{
+width : 8rem  !important;;
+}
+.sapSuiteUiCommonsTimelineItemArrow{
+	margin-left: 60px;
+}
+
+#GSPaidDate .sapSuiteUiCommonsTimelineItemBox, #GSPaidDate .sapSuiteUiCommonsTimelineItemArrow{
+	background-color: #b2b133;
+}
+
+#AppointmentDate .sapSuiteUiCommonsTimelineItemBox, #AppointmentDate .sapSuiteUiCommonsTimelineItemArrow{
+	background-color: #e9ab35;
+}
+#RejectionReceiptDate .sapSuiteUiCommonsTimelineItemBox, #RejectionReceiptDate .sapSuiteUiCommonsTimelineItemArrow{
+	background-color: #cdad32;
+}
+#AppointmentRaisedDate .sapSuiteUiCommonsTimelineItemBox, #AppointmentRaisedDate .sapSuiteUiCommonsTimelineItemArrow{
+	background-color: #97b233;
+}
+#CompletionDate .sapSuiteUiCommonsTimelineItemShell, #CompletionDate .sapSuiteUiCommonsTimelineItemArrow{
+	background-color: #cdad32;
+}
+/*.customMonth {*/
+/*    color: white;*/
+/*     text-align: center !important;;*/
+/*    font-family: Arial;*/
+/*    background-color: rgb(100, 141, 27);*/
+/*    line-height: 30px;*/
+/*    width: 120px;*/
+     
+     
+/*}*/
+/*.customDay{*/
+/*	padding-top: 10px;*/
+/*}*/
+/*.customYear{*/
+/*	padding-top:20px;*/
+/*	font-size: 0.675rem;*/
+/*}*/
+
+
+
+/*.customTileTileDescription{*/
+/*  text-align: center;*/
+/*  font-size:1.1rem;*/
+/*   background-color: #FF0000;*/
+/*}*/

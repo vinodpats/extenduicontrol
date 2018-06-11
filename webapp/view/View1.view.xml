@@ -1,0 +1,123 @@
+<mvc:View xmlns:co="sap.suite.ui.commons" xmlns:cust="custom" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.core="sap.ui.core" controllerName="com.ibm.controller.View1">
+	<!--<content>-->
+	<!--<cust:HoverButton allowHover="true" hover="onHover" id="__button0" text="Custom Button" width="100px"/>-->
+	<!--<CustomTile >-->
+	<!--	<content>-->
+	<!--<HBox class="marginTop5rem customTileHBox">-->
+	<!--	<Text class="userNameLabel fontSize1rem verticalAlignMiddle" maxLines="2" text="Hi"/>-->
+	<!--	<FlexBox class="flexBoxCustomTile customLayoutassessLayout sapUiSmallMarginBeginEnd" direction="Column">-->
+	<!--		<items>-->
+	<!--			<Title class="customTileTileTitle" text="Title" width="100%"/>-->
+	<!--			<Text class="customTileTileDescription" text="Text" width="100%"/>-->
+	<!--		</items>-->
+	<!--	</FlexBox>-->
+	<!--</HBox>-->
+	<!--	</content>-->
+	<!--</CustomTile>-->
+	<!--<FlexBox alignItems="Center" class="customFlex" direction="Column">-->
+	<!--	<items>-->
+	<!--		<Text class="customMonth" text="March"/>-->
+	<!--		<Text class="customDay" text="15"/>-->
+	<!--		<Text class="customYear" text="2017"/>-->
+	<!--	</items>-->
+	<!--</FlexBox>-->
+	<!--<Panel>-->
+	<!--<TimelineItem TimelineItemPosition="Top" dateTime="Date(1407049200000)" icon="sap-icon://appointment-2" id="myTimelineItem"-->
+	<!-- title="Appointment Raised Date"/>-->
+	<!--<TimelineItem  dateTime="Date(1407222000000)" icon="sap-icon://appointment-2" id="item1" title="added a note"/>-->
+	<!--<TimelineItem dateTime="Date(1407359908947)" icon="sap-icon://appointment-2" title="added a note"/>-->
+	<!--<TimelineItem dateTime="new Date(1406962800000)" icon="sap-icon://appointment-2" text="A Call was made" title="made a call"/>-->
+	
+			
+	<m:Button text="Click me"  press="buttonClicked"/>
+	<m:Panel id="idPanel">
+		<co:Timeline id="idTimeline" showFilterBar="false" sortOldestFirst="false" width="30%" >
+			<co:content>
+				
+			</co:content>
+			
+			</co:Timeline>
+			
+			
+			
+	
+	</m:Panel>
+	
+	
+	<!--<co:Timeline-->
+	<!--	id="idTimeline1"-->
+	<!--	enableSocial="true"-->
+	<!--	enableScroll="false"-->
+	<!--	width="30%"-->
+	<!--	sortOldestFirst="true"-->
+	<!--	>-->
+	<!--	<co:content>-->
+	<!--		<co:TimelineItem-->
+	<!--		    dateTime  = "Date(1407049200000)" -->
+	<!--		   	userNameClickable = "true"-->
+	<!--		   	text = "ample text for a Note type item"-->
+	<!--			userName = "John Smith"-->
+	<!--			title = "added a note"-->
+	<!--			filterValue = "Note"-->
+	<!--			icon = "sap-icon://notes"-->
+	<!--			userNameClicked ="attachUserNameClicked"-->
+	<!--			setEnableDoubleSided = "true">-->
+	<!--		</co:TimelineItem>-->
+	<!--		<co:TimelineItem-->
+	<!--		    dateTime = "Date(1407222000000)"-->
+	<!--			userNameClickable = "true"-->
+	<!--			userName = "William Johnson"-->
+	<!--			title = "added a note"-->
+	<!--			filterValue = "Note"-->
+	<!--			icon = "sap-icon://notes"-->
+	<!--			userNameClicked ="attachUserNameClicked2" />-->
+					
+			
+	<!--		<co:TimelineItem-->
+	<!--			dateTime = "Date(1407359908947)"-->
+	<!--			userNameClickable =  "true"-->
+	<!--			userName = "Nancy Grace"-->
+	<!--			title = "added a note"-->
+	<!--			filterValue = "Note"-->
+	<!--			icon = "sap-icon://notes"-->
+	<!--			userNameClicked ="attachUserNameClicked1"/>-->
+					
+			
+	<!--		<co:TimelineItem-->
+	<!--	  	 	dateTime = "new Date(1406962800000)"-->
+	<!--			userNameClickable = "true"-->
+	<!--			text = "A Call was made on this date. Need to follow up next week."-->
+	<!--			userName = "Tom Lee"-->
+	<!--			title = "made a call"-->
+	<!--			filterValue = "Call"-->
+	<!--			icon = "sap-icon://outgoing-call"-->
+	<!--			userNameClicked ="attachUserNameClicked">-->
+	<!--		</co:TimelineItem>-->
+	<!--		<co:TimelineItem-->
+	<!--		    dateTime = "Date(1407222000000)"-->
+	<!--			userNameClickable = "true"-->
+	<!--			text = "Called customer to follow up with the order."-->
+	<!--			userName = "Jerry Lewis"-->
+	<!--			title = "made a call"-->
+	<!--			filterValue = "Call"-->
+	<!--			icon = "sap-icon://outgoing-call"-->
+	<!--			userNameClicked ="attachUserNameClicked1">-->
+	<!--		</co:TimelineItem>  -->
+			
+	<!--	</co:content>-->
+	<!--</co:Timeline>-->
+
+	
+	
+	<!-- working below code 
+		<m:Panel>
+		<co:Timeline content="{vp>/VariousDates}" id="idTimeline" showFilterBar="false" sortOldestFirst="true" width="30%">
+			<co:content>
+				<co:TimelineItem TimelineItemPosition="Top" dateTime="{dateTime}" icon="{vp>icon}" id="myTimelineItem"
+					title="{= ${vp>dateTime}.split('T')[0] }"/>
+			</co:content>
+		</co:Timeline>
+	</m:Panel>-->
+	
+	
+</mvc:View>
